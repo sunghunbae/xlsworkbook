@@ -34,6 +34,14 @@ row = {u'Supplier': u'Samchun', u'Package': u'500 g',
 
 ### Example output
 <pre>
+number of sheets= 3
+Sheet3
+Sheet2
+Sheet3
+reagents
+number of rows= 120
+number of cols= 5
+
 Phthalimide
 colchicine
 5-Hydroxy-1-indanone
