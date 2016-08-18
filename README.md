@@ -10,6 +10,24 @@ for row in nb :
     if row['Supplier'] == 'TCI' :
         print row['Name']
 ```
+
+row = ```{u'Supplier': u'Samchun', u'Package': u'500 g', u'Storage': u'X001', u'Name': u'potassium bicarbonate', u'No': 1}```
+
+### example input (converted to .csv)
+<pre>
+"No","Name","Storage","Package","Supplier"
+1,"potassium bicarbonate","X001","500 g","Samchun"
+2,"phosphorus pentachloride","X002","500 g","Lancaster"
+3,"phthalic anhydride","X003","500 g","Aldrich"
+4,"propionic acid","X004","500 mL","AJAX chemical"
+5,"phthalic anhydride","X005","500 g","Aldrich"
+6,"phenyl ether","X006","1 kg","Acros"
+7,"polyphosphoric acid","X007","1 Kg","Aldrich"
+8,"Phthalimide","X008","500 g","TCI"
+9,"Phosphorus tribromide","X009","500 g","Aldrich"
+--- omitted ---
+</pre>
+
 ### example output
 <pre>
 Phthalimide
