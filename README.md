@@ -13,7 +13,8 @@ for row in nb :
 
 In the above example, each row is a dictionary object with keys from the header line.
 ```
-row = {u'Supplier': u'Samchun', u'Package': u'500 g', u'Storage': u'X001', u'Name': u'potassium bicarbonate', u'No': 1}
+row = {u'Supplier': u'Samchun', u'Package': u'500 g', 
+       u'Storage': u'X001', u'Name': u'potassium bicarbonate', u'No': 1}
 ```
 
 ### Example input (converted to .csv)
