@@ -1,7 +1,7 @@
 # xlsworkbook
 reading Excel workbook (.xls, .xlsx) in python
 
-### Usage
+### Usage example
 ```
 from xlsworkbook import ExcelWorkBook
 
@@ -11,6 +11,7 @@ for row in nb :
         print row['Name']
 ```
 
+In the above example, each row is a dictionary object with keys from the header line.
 ```
 row = {u'Supplier': u'Samchun', u'Package': u'500 g', u'Storage': u'X001', u'Name': u'potassium bicarbonate', u'No': 1}
 ```
