@@ -1,7 +1,7 @@
 # xlsworkbook
 reading Excel workbook (.xls, .xlsx) in python
 
-### example
+### Usage
 ```
 from xlsworkbook import ExcelWorkBook
 
@@ -11,9 +11,11 @@ for row in nb :
         print row['Name']
 ```
 
-row = ```{u'Supplier': u'Samchun', u'Package': u'500 g', u'Storage': u'X001', u'Name': u'potassium bicarbonate', u'No': 1}```
+```
+row = {u'Supplier': u'Samchun', u'Package': u'500 g', u'Storage': u'X001', u'Name': u'potassium bicarbonate', u'No': 1}
+```
 
-### example input (converted to .csv)
+### Example input (converted to .csv)
 <pre>
 "No","Name","Storage","Package","Supplier"
 1,"potassium bicarbonate","X001","500 g","Samchun"
@@ -28,7 +30,7 @@ row = ```{u'Supplier': u'Samchun', u'Package': u'500 g', u'Storage': u'X001', u'
 --- omitted ---
 </pre>
 
-### example output
+### Example output
 <pre>
 Phthalimide
 colchicine
