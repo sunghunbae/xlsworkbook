@@ -1,5 +1,5 @@
 # xlsworkbook
-reading Excel workbook (.xls, .xlsx) in python
+reading Excel workbook (.xls, .xlsx) in python using openpyxl and xlrd
 
 ### Usage example
 ```
